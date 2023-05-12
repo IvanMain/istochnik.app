@@ -21,6 +21,7 @@
     src: url('../fonts/HistoryPro-Two.woff') format('woff');
     font-weight: 400;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -28,6 +29,7 @@
     src: url('../fonts/Antarctic.woff') format('woff');
     font-weight: 400;
     font-style: normal;
+    font-display: swap;
 }
 
 
@@ -100,7 +102,7 @@ img {
     width: 100%;
     height: 100%;
     margin: 0;
-    background: url('//fs.getcourse.ru/fileservice/file/download/a/11874/sc/477/h/8de7ccaeb23016d6ce6affdb6d169e0a.png') no-repeat;
+    background: url('../img/__icons/f2523ffb09119717de521a460f917b0b.png') no-repeat;
     background-size: cover;
     animation-name: animBtn;
     animation-duration: 1s;
