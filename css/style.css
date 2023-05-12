@@ -102,7 +102,7 @@ img {
     width: 100%;
     height: 100%;
     margin: 0;
-    background: url('../img/__icons/f2523ffb09119717de521a460f917b0b.png') no-repeat;
+    background: url('../img/__icons/f2523ffb09119717de521a460f917b0b.webp') no-repeat;
     background-size: cover;
     animation-name: animBtn;
     animation-duration: 1s;
@@ -189,7 +189,7 @@ img {
     width: 614rem;
     height: 636rem;
     margin: 0 auto;
-    background: url('../img/utp/utp-img.png') no-repeat;
+    background: url('../img/utp/utp-img.webp') no-repeat;
     background-size: contain;
     z-index: -1;
 }
@@ -607,7 +607,7 @@ img {
 }
 
 .statistics-info {
-    background: #221A53 url('../img/statistics/bg.png') no-repeat;
+    background: #221A53 url('../img/statistics/bg.webp') no-repeat;
     background-size: cover;
     padding: 71rem 0 99rem;
 }
@@ -701,7 +701,7 @@ img {
     display: block;
     width: 774rem;
     height: 774rem;
-    background: url('../img/statistics/map.png') no-repeat;
+    background: url('../img/statistics/map.webp') no-repeat;
     background-size: contain;
     z-index: -1;
 }
