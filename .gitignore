@@ -14,3 +14,4 @@ node_modules/
 # Собранные файлы (допишите самостоятельно)
 build/
 __gc-widget/
+blocks/

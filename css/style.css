@@ -428,6 +428,22 @@ img {
 
 /* Программа - вебинарный блок */
 
+.program__title-small {
+    font-family: 'History Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55rem;
+    line-height: 108.5%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #393939;
+    margin-bottom: 60rem;
+}
+
+.program__title-small-orange {
+    color: #E67722;
+}
+
 .program__webinar-item {
     max-width: 753rem;
     margin-left: auto;
@@ -484,7 +500,7 @@ img {
     max-width: 753rem;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 7rem 7rem rgba(0, 0, 0, 0.4);
 }
 
 .webinar-item__banner-img {}
@@ -662,12 +678,14 @@ img {
 
 .author__play-btn {
     position: absolute;
-    right: 69rem;
-    bottom: 67rem;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
     z-index: 1;
     outline: none;
     border: none;
-    margin: 0;
+    margin: auto;
     padding: 0;
     font-size: 0;
     line-height: 0;
@@ -1109,7 +1127,7 @@ img {
 
 .vip-header-banner__sub {
     font-weight: 600;
-    font-size: 40rem;
+    font-size: 35rem;
     line-height: 117%;
     text-align: center;
     text-transform: uppercase;
@@ -1128,8 +1146,8 @@ img {
 
 .vip-header-banner__desc {
     font-weight: 600;
-    font-size: 30rem;
-    line-height: 41rem;
+    font-size: 40rem;
+    line-height: 48rem;
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -1268,6 +1286,7 @@ img {
     max-width: 900rem;
     background: #786857;
     border-color: #786857;
+    padding: 28rem 10rem 36rem;
 }
 
 .imp-message-btns__tg-btn-title {
@@ -1298,11 +1317,16 @@ img {
     text-transform: uppercase;
     color: #FFFFFF;
     margin-top: 5rem;
+    display: block;
 }
 
 .imp-message-btns__tg-btn:hover .imp-message-btns__tg-btn-title,
 .imp-message-btns__tg-btn:hover .imp-message-btns__tg-btn-desc {
     color: #786857;
+}
+
+.imp-message-btns__tg-btn:hover .imp-message-btns__tg-btn-title svg path {
+    fill: #786857;
 }
 
 
@@ -1510,6 +1534,10 @@ img {
     fill: #549DCE;
 }
 
+.gc-widget-free-tg {
+    background: #221A53;
+}
+
 
 /* PAGE VIP */
 
@@ -1561,8 +1589,8 @@ img {
 /* txt-banner-live */
 
 .txt-banner-live {
-    background: #221A53;
-    padding: 46rem 0 50rem;
+    padding: 70rem 0 50rem;
+    background: #F2F2F2;
 }
 
 .txt-banner-live__container {
@@ -1570,7 +1598,7 @@ img {
 }
 
 .txt-banner-live__img-box {
-    max-width: 136rem;
+    max-width: 340rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -1595,8 +1623,12 @@ img {
     line-height: 57rem;
     text-align: center;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #393939;
     margin-top: 24rem;
+}
+
+.txt-banner-live__web-img-box {
+    margin-top: 36rem;
 }
 
 
@@ -2367,7 +2399,7 @@ img {
         margin-top: 0;
     }
     .txt-banner-live {
-        padding: 46rem 15rem 50rem;
+        padding: 70rem 15rem 50rem;
     }
     .txt-banner-live__title {
         font-size: 37rem;
@@ -2448,5 +2480,8 @@ img {
         font-size: 44rem;
         line-height: 66rem;
         margin-top: 74rem;
+    }
+    .program__title-small {
+        font-size: 44rem;
     }
 }
