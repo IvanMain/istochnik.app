@@ -3,8 +3,8 @@
 // timer
 (() => {
   const cstGcDateYear = 2023;
-  const cstGcDateMonth = 4;
-  const cstGcDateDay = 31;
+  const cstGcDateMonth = 5;
+  const cstGcDateDay = 7;
   const cstGcDateHours = 17;
   const cstGcDateMinutes = 00;
 
@@ -75,10 +75,11 @@
         slidesToShow: 2,
         slidesToScroll: 1,
         dots: true,
+        arrows: true,
         responsive: [{
           breakpoint: 600,
           settings: {
-            arrows: false,
+            arrows: true,
             centerMode: true,
             slidesToShow: 1
           }
