@@ -1628,6 +1628,10 @@ img {
     margin-bottom: 54rem;
 }
 
+.gc-widget-free-tg__desc span {
+    color: #E67722;
+}
+
 
 /* PAGE VIP */
 
@@ -2063,7 +2067,7 @@ img {
 /* footer-txt-banner */
 
 .footer-txt-banner {
-    padding-bottom: 54rem;
+    padding-bottom: 0;
     background: #0C0056;
     background-size: cover;
     background-position: center;
