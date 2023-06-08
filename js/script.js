@@ -109,3 +109,20 @@
     });
   }
 })();
+
+
+//utm
+
+(() => {
+  const utm = location.search;
+  const btns = document.querySelectorAll('.btn');
+
+  if (utm) {
+    for (const btn of btns) {
+      if (btn.href.indexOf('http') !== -1 && btn.href.indexOf('#order') <= -1) {
+        btn.href = btn.href + utm;
+      }
+    }
+  }
+
+})();
