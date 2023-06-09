@@ -6,7 +6,7 @@
   const cstGcDateMonth = 5;
   const cstGcDateDay = 7;
   const cstGcDateHours = 17;
-  const cstGcDateMinutes = 00;
+  const cstGcDateMinutes = 0;
 
   const countDownDate = new Date(Date.UTC(cstGcDateYear, cstGcDateMonth, cstGcDateDay, cstGcDateHours - 3, cstGcDateMinutes));
 
@@ -126,3 +126,20 @@
   }
 
 })();
+
+// fbq events
+const initiateCheckoutBtn = document.querySelector('#InitiateCheckout');
+const addToCartBtn = document.querySelector('#InitiateCheckout');
+const completeRegistrationBtn = document.querySelector('#InitiateCheckout');
+
+initiateCheckoutBtn.addEventListener('click', () => {
+  fbq('track', 'InitiateCheckout');
+});
+
+addToCartBtn.addEventListener('click', () => {
+  fbq('track', 'AddToCart');
+});
+
+completeRegistrationBtn.addEventListener('click', () => {
+  fbq('track', 'CompleteRegistration');
+});

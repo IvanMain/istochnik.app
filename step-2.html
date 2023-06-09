@@ -15,6 +15,34 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.min.css">
+
+    <!-- Meta Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '756417519043059');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=756417519043059&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
 </head>
 
 <body>
@@ -64,7 +92,7 @@
                 </div>
 
                 <div class="imp-message-btns">
-                    <a class="imp-message-btns__vip-btn  btn" href="/vip.html">
+                    <a id="AddToCart" class="imp-message-btns__vip-btn  btn" href="/vip.html">
                         <span class="imp-message-btns__vip-btn-title">
 <svg viewBox="0 0 38 36" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M17.0367 13.035C16.7175 13.035 16.4115 13.1551 16.1858 13.3689C15.9601 13.5827 15.8334 13.8727 15.8334 14.175V31.35C15.8334 31.98 16.3717 32.49 17.0367 32.49C17.3375 32.49 17.5909 32.4 17.7967 32.25L20.8209 29.925L23.4492 35.355C23.655 35.76 24.0825 36 24.5417 36C24.7159 36 24.89 36 25.0642 35.88L29.4342 33.96C30.0359 33.69 30.3209 33 30.0042 32.445L27.36 27L31.1759 26.325C31.438 26.2605 31.6746 26.1249 31.8567 25.935C32.2842 25.455 32.2209 24.75 31.6667 24.315L17.8284 13.29L17.8125 13.305C17.596 13.1306 17.3209 13.0349 17.0367 13.035ZM23.75 15V12H31.6667V15H23.75ZM21.8975 7.14L26.3784 2.895L28.6109 5.01L24.13 9.255L21.8975 7.14ZM15.8334 0H19V7.5H15.8334V0ZM6.22252 21.99L10.7034 17.745L12.9359 19.86L8.45502 24.105L6.22252 21.99ZM6.22252 5.01L8.45502 2.895L12.9359 7.14L10.7034 9.255L6.22252 5.01ZM11.0834 15H3.16669V12H11.0834V15Z" fill="white"/>
@@ -74,7 +102,7 @@
                         <span class="imp-message-btns__vip-btn-desc">Экономия $275</span>
                     </a>
 
-                    <a class="imp-message-btns__tg-btn  btn" href="/free.html">
+                    <a id="CompleteRegistration" class="imp-message-btns__tg-btn  btn" href="/free.html">
                         <span class="imp-message-btns__tg-btn-title">
 <svg viewBox="0 0 38 36" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M17.0367 13.035C16.7175 13.035 16.4115 13.1551 16.1858 13.3689C15.9601 13.5827 15.8334 13.8727 15.8334 14.175V31.35C15.8334 31.98 16.3717 32.49 17.0367 32.49C17.3375 32.49 17.5909 32.4 17.7967 32.25L20.8209 29.925L23.4492 35.355C23.655 35.76 24.0825 36 24.5417 36C24.7159 36 24.89 36 25.0642 35.88L29.4342 33.96C30.0359 33.69 30.3209 33 30.0042 32.445L27.36 27L31.1759 26.325C31.438 26.2605 31.6746 26.1249 31.8567 25.935C32.2842 25.455 32.2209 24.75 31.6667 24.315L17.8284 13.29L17.8125 13.305C17.596 13.1306 17.3209 13.0349 17.0367 13.035ZM23.75 15V12H31.6667V15H23.75ZM21.8975 7.14L26.3784 2.895L28.6109 5.01L24.13 9.255L21.8975 7.14ZM15.8334 0H19V7.5H15.8334V0ZM6.22252 21.99L10.7034 17.745L12.9359 19.86L8.45502 24.105L6.22252 21.99ZM6.22252 5.01L8.45502 2.895L12.9359 7.14L10.7034 9.255L6.22252 5.01ZM11.0834 15H3.16669V12H11.0834V15Z" fill="white"/>
