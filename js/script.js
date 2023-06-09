@@ -132,14 +132,12 @@ const initiateCheckoutBtn = document.querySelector('#InitiateCheckout');
 const addToCartBtn = document.querySelector('#AddToCart');
 const completeRegistrationBtn = document.querySelector('#CompleteRegistration');
 
-initiateCheckoutBtn.addEventListener('click', () => {
-  fbq('track', 'InitiateCheckout');
-});
+const setFbqEvents = (btn, events) => {
+  if (btn) {
+    fbq('track', events);
+  }
+};
 
-addToCartBtn.addEventListener('click', () => {
-  fbq('track', 'AddToCart');
-});
-
-completeRegistrationBtn.addEventListener('click', () => {
-  fbq('track', 'CompleteRegistration');
-});
+setFbqEvents(initiateCheckoutBtn, 'InitiateCheckout');
+setFbqEvents(addToCartBtn, 'AddToCartkout');
+setFbqEvents(completeRegistrationBtn, 'CompleteRegistration');
