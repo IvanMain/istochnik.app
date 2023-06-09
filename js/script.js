@@ -134,7 +134,9 @@ const completeRegistrationBtn = document.querySelector('#CompleteRegistration');
 
 const setFbqEvents = (btn, events) => {
   if (btn) {
-    fbq('track', events);
+    btn.addEventListener('click', () => {
+      fbq('track', events);
+    });
   }
 };
 
