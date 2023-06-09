@@ -2142,6 +2142,13 @@ img {
     color: #221A53;
 }
 
+.copy-text {
+    font-size: 15rem;
+    text-align: center;
+    padding: 15rem;
+    background: #F2F2F2;
+}
+
 @media screen and (max-width: 600px) {
     html {
         font-size: calc(1vw / 6);
@@ -2379,7 +2386,7 @@ img {
         margin-bottom: 40rem;
     }
     .quote {
-        padding: 63rem 15rem 78rem;
+        padding: 63rem 15rem 20rem;
     }
     .quote__container {
         max-width: 100%;
@@ -2650,7 +2657,7 @@ img {
         margin-top: 74rem;
     }
     .program__title-small {
-        font-size: 44rem;
+        font-size: 37rem;
     }
     .slick-arrow {
         display: none !important;
