@@ -134,8 +134,11 @@ const completeRegistrationBtn = document.querySelector('#CompleteRegistration');
 
 const setFbqEvents = (btn, events) => {
   if (btn) {
-    btn.addEventListener('click', () => {
+    btn.addEventListener('click', (evt) => {
+      evt.preventDefault();
+
       fbq('track', events);
+      window.open(btn.href);
     });
   }
 };
