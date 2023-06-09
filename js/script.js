@@ -129,8 +129,8 @@
 
 // fbq events
 const initiateCheckoutBtn = document.querySelector('#InitiateCheckout');
-const addToCartBtn = document.querySelector('#InitiateCheckout');
-const completeRegistrationBtn = document.querySelector('#InitiateCheckout');
+const addToCartBtn = document.querySelector('#AddToCart');
+const completeRegistrationBtn = document.querySelector('#CompleteRegistration');
 
 initiateCheckoutBtn.addEventListener('click', () => {
   fbq('track', 'InitiateCheckout');
