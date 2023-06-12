@@ -1699,6 +1699,39 @@ img {
 
 .txt-banner-live__img-box-item {}
 
+.txt-banner-live__title-date-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt-banner-live__title-date {
+    background: #E67722;
+    padding: 6rem 31rem;
+    position: relative;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45rem;
+    line-height: 105.63%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.txt-banner-live__title-date::before {
+    content: '';
+    position: absolute;
+    left: 10rem;
+    top: 0;
+    bottom: 0;
+    display: block;
+    margin: auto 0;
+    width: 13rem;
+    height: 13rem;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
 .txt-banner-live__title {
     font-weight: 700;
     font-size: 40rem;
