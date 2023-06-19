@@ -37,7 +37,6 @@
 
 html {
     font-size: calc(1vw / 19.2);
-    scroll-behavior: smooth;
 }
 
 body {
@@ -2185,7 +2184,6 @@ img {
 @media screen and (max-width: 600px) {
     html {
         font-size: calc(1vw / 6);
-        scroll-behavior: smooth;
     }
     .btn {
         max-width: calc(100% - 30rem);
