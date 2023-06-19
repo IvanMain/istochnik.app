@@ -94,4 +94,18 @@
         margin-right: 0;
         max-width: 250rem;
     }
+    .utp-target-page__widget {
+        overflow: unset;
+    }
+    .utp-target-page__widget::before {
+        content: '';
+        position: absolute;
+        right: -20rem;
+        top: 0;
+        display: block;
+        width: 550rem;
+        height: 100%;
+        background: #e7eae1;
+        z-index: -1;
+    }
 }
