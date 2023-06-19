@@ -55,6 +55,7 @@
         padding-bottom: 37rem;
         min-height: 1136rem;
         height: auto;
+        overflow: hidden;
     }
     .utp-target-page__container {
         flex-direction: column-reverse;
@@ -69,7 +70,7 @@
         width: 100%;
     }
     .utp-list::before {
-        top: -56rem;
+        top: -36rem;
         left: -332rem;
         width: 383rem;
         height: 392rem;
