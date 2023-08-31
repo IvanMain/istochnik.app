@@ -23,7 +23,7 @@
     timerMinutes = document.querySelectorAll('.webinar-timer__num--minutes'),
     timerSeconds = document.querySelectorAll('.webinar-timer__num--seconds');
 
-  let refreshTimer = setInterval(function() {
+  let refreshTimer = setInterval(function () {
     let now = new Date().getTime();
     let distance = countDownDate - now;
 
@@ -69,7 +69,7 @@
   const reviews = document.querySelector('.reviews-slider');
 
   if (reviews) {
-    $(document).ready(function() {
+    $(document).ready(function () {
       $(reviews).slick({
         infinite: true,
         slidesToShow: 2,
@@ -113,36 +113,36 @@
 
 //utm
 
-(() => {
-  const utm = location.search;
-  const btns = document.querySelectorAll('.btn');
+// (() => {
+//   const utm = location.search;
+//   const btns = document.querySelectorAll('.btn');
 
-  if (utm) {
-    for (const btn of btns) {
-      if (btn.href.indexOf('http') !== -1 && btn.href.indexOf('#order') <= -1) {
-        btn.href = btn.href + utm;
-      }
-    }
-  }
+//   if (utm) {
+//     for (const btn of btns) {
+//       if (btn.href.indexOf('http') !== -1 && btn.href.indexOf('#order') <= -1) {
+//         btn.href = btn.href + utm;
+//       }
+//     }
+//   }
 
-})();
+// })();
 
 // fbq events
-const initiateCheckoutBtn = document.querySelector('#InitiateCheckout');
-const addToCartBtn = document.querySelector('#AddToCart');
-const completeRegistrationBtn = document.querySelector('#CompleteRegistration');
+// const initiateCheckoutBtn = document.querySelector('#InitiateCheckout');
+// const addToCartBtn = document.querySelector('#AddToCart');
+// const completeRegistrationBtn = document.querySelector('#CompleteRegistration');
 
-const setFbqEvents = (btn, events) => {
-  if (btn) {
-    btn.addEventListener('click', (evt) => {
-      evt.preventDefault();
+// const setFbqEvents = (btn, events) => {
+//   if (btn) {
+//     btn.addEventListener('click', (evt) => {
+//       evt.preventDefault();
 
-      fbq('track', events);
-      window.open(btn.href);
-    });
-  }
-};
+//       fbq('track', events);
+//       window.open(btn.href);
+//     });
+//   }
+// };
 
-setFbqEvents(initiateCheckoutBtn, 'InitiateCheckout');
-setFbqEvents(addToCartBtn, 'AddToCartkout');
-setFbqEvents(completeRegistrationBtn, 'CompleteRegistration');
+// setFbqEvents(initiateCheckoutBtn, 'InitiateCheckout');
+// setFbqEvents(addToCartBtn, 'AddToCartkout');
+// setFbqEvents(completeRegistrationBtn, 'CompleteRegistration');
